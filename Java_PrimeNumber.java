@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class PrimeNumber {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("数字を入力してください: ");
+        System.out.print("自然数を入力してください: ");
         int num = sc.nextInt();
 
         boolean isPrime = true;
