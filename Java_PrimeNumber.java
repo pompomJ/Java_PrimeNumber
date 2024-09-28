@@ -16,9 +16,7 @@ public class PrimeNumber {
 
 	if (num == 1) {
 	   System.out.println(num + "は素数ではありません。");
-	}
-
-        else if (isPrime) {
+	} else if (isPrime) {
             System.out.println(num + "は素数です。");
         } else {
             System.out.println(num + "は素数ではありません。");
